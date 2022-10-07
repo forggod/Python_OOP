@@ -19,8 +19,8 @@ class HomeLibrary:
             print(*i)
 
 
-book1 = HomeLibrary('Онегин', 'Пушкин', '1833')
-book2 = HomeLibrary('Мцыри', 'Лермонтов', '1840')
-book4 = HomeLibrary('Война и мир', 'Толстой', '1865')
+HomeLibrary('Онегин', 'Пушкин', '1833')
+HomeLibrary('Мцыри', 'Лермонтов', '1840')
+HomeLibrary('Война и мир', 'Толстой', '1865')
 
 HomeLibrary.show()
